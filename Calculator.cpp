@@ -3,7 +3,7 @@
   Copyright: Gustavo Conte
   Author: Gustavo Conte Mereles
   Date: 14/12/16 18:06
-  Description: Calculadora simples e obejtiva, ultilizando lÛgica simples e organizada.
+  Description: Calculadora simples e obejtiva, ultilizando l√≥gica simples e organizada.
 */
 
 #include <time.h>
@@ -16,7 +16,7 @@
 int main() 
 {
 
-  setlocale(LC_ALL, "Portuguese");//habilita a acentuaÁ„o para o portuguÍs
+  setlocale(LC_ALL, "Portuguese");//habilita a acentua√ß√£o para o portugu√™s
   system("color A");
   printf("Bem Vindo Ao Cofeina Calculator\n\n");
   printf("Ver. 1.0.0\n");
@@ -26,40 +26,31 @@ int main()
    
   system("color 7");  
   int n1;
-  printf("Digite um n˙mero inteiro\n\n");
-  scanf("%d", &n1);  //Declara Vari·vel que recebe o primeiro n˙mero do usu·rio
+  printf("Digite um n√∫mero inteiro\n\n");
+  scanf("%d", &n1);  //Declara Vari√°vel que recebe o primeiro n√∫mero do usu√°rio
   
   system("cls");
   
   int n2;
   printf("Agora digite outro\n\n");
-  scanf("%d", &n2);  //Declara Vari·vel que recebe o segundo n˙mero do usu·rio
+  scanf("%d", &n2);  //Declara Vari√°vel que recebe o segundo n√∫mero do usu√°rio
 
   system("cls");
-  /*A partir deste ponto declaramos as vari·veis inteiras para as operaÁıes e resultado em seguida realizamos as operacıes*/
+  /*A partir deste ponto declaramos as vari√°veis inteiras para as opera√ß√µes e resultado em seguida realizamos as operac√µes*/
   int soma, subt, mult;
   
   soma = n1 + n2;
   subt = n1 - n2;
   mult = n1 * n2;
   
-  printf("O resultado da soma entre %d e %d È %d\n\n", n1, n2, soma);
-  printf("O resultado da subtraÁ„o entre %d e %d È %d\n\n", n1, n2, subt);
-  printf("O resultado da mutiplicaÁ„o entre %d e %d È %d\n\n", n1, n2, mult);
+  printf("O resultado da soma entre %d e %d √© %d\n\n", n1, n2, soma);
+  printf("O resultado da subtra√ß√£o entre %d e %d √© %d\n\n", n1, n2, subt);
+  printf("O resultado da mutiplica√ß√£o entre %d e %d √© %d\n\n", n1, n2, mult);
   
-  Sleep(2000);  //Pausa do Software
-  int variavel;
-  variavel = getch();
-  switch(variavel){
-  
-  case '1': execute isso;break;
-  case '2': execute aquilo;break;
-  default: n„o execute nada;break;
+  Sleep(10000);  //Pausa do Software
+  system("cls");
+  printf("Presione:\n\n");
+  printf("1. Realizar outra equa√ß√£o | 2. Informa√ß√µes do software | 3. Sair\n\n");
   
   system("pause");
-  system("cls");
-    
-  printf("ol·");
-  Sleep(5000);
-  return 0;
 }
