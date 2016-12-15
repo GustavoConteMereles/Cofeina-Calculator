@@ -1,0 +1,69 @@
+[Project]
+FileName=Cofeina Calculator.dev
+Name=Cofeina Calculator
+UnitCount=1
+Type=1
+Ver=1
+ObjFiles=
+Includes=
+Libs=
+PrivateResource=Cofeina_Calculator_private.rc
+ResourceIncludes=
+MakeIncludes=
+Compiler=
+CppCompiler=
+Linker=
+IsCpp=1
+Icon=Cofeina Calculator.ico
+ExeOutput=
+ObjectOutput=
+OverrideOutput=0
+OverrideOutputName=Cofeina Calculator 1.0
+HostApplication=
+Folders=
+CommandLine=
+UseCustomMakefile=0
+CustomMakefile=
+IncludeVersionInfo=1
+SupportXPThemes=0
+CompilerSet=0
+CompilerSettings=0000000000000001000000
+
+[Unit1]
+FileName=Calculator.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[VersionInfo]
+Major=0
+Minor=0
+Release=0
+Build=1
+LanguageID=1046
+CharsetID=1252
+CompanyName=
+FileVersion=
+FileDescription=Cofeina Calculator
+InternalName=
+LegalCopyright=Gustavo Conte
+LegalTrademarks=
+OriginalFilename=
+ProductName=Cofeina Calculator
+ProductVersion=1.0
+AutoIncBuildNr=0
+
+[Unit3]
+FileName=Cofeina_Calculator_private.h
+CompileCpp=1
+Folder=Cofeina Calculator
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
