@@ -1,7 +1,7 @@
 [Project]
 FileName=Cofeina Calculator.dev
 Name=Cofeina Calculator
-UnitCount=1
+UnitCount=3
 Type=1
 Ver=1
 ObjFiles=
@@ -41,9 +41,9 @@ BuildCmd=
 
 [VersionInfo]
 Major=0
-Minor=0
-Release=0
-Build=1
+Minor=1
+Release=4
+Build=6
 LanguageID=1046
 CharsetID=1252
 CompanyName=
@@ -54,13 +54,23 @@ LegalCopyright=Gustavo Conte
 LegalTrademarks=
 OriginalFilename=
 ProductName=Cofeina Calculator
-ProductVersion=1.0
-AutoIncBuildNr=0
+ProductVersion=
+AutoIncBuildNr=1
+
+[Unit2]
+FileName=inicio.h
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
 
 [Unit3]
-FileName=Cofeina_Calculator_private.h
+FileName=inicio.cpp
 CompileCpp=1
-Folder=Cofeina Calculator
+Folder=
 Compile=1
 Link=1
 Priority=1000
